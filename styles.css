@@ -107,11 +107,46 @@ a {
 
 .info-section {
 	height: 350px;
+  padding-top: 40px;
 }
 
 .quote-section {
 	flex: 1;
   background-color: bisque;
+}
+
+.random-info {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.illustrations {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-image {
+  border: 2px solid #3882f6;
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.text {
+  text-align: center;
+  max-width: 100px;
 }
 
 footer {
